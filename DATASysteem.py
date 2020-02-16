@@ -10,7 +10,7 @@ print("Recieved date "+dateDATASysteem)
 print('\n')
 
 #open workbook and sheet
-workbook = xlrd.open_workbook("/Users/LorenzoRozenblad/Desktop/Marchano/file.xlsx")
+workbook = xlrd.open_workbook("<file>")
 worksheet = workbook.sheet_by_name("DATASysteem")
 count = 0
 
